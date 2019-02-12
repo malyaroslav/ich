@@ -32,9 +32,9 @@ sections {
     min-height: 50vh;
     transform: rotateY(-45deg) rotateX(10deg) rotateZ(0deg);
     transition: 1.2s .1s;
-    backface-visibility: visible;
+/*    backface-visibility: visible;*/
     /*    animation: fon 3s ease infinite;*/
-    animation: fon 1s ease infinite;
+    animation: fon 3s infinite;
 }
 
 #header {
@@ -141,6 +141,7 @@ sections {
 
 }
 
+
 body {
     /*    display: flex;*/
     /*    justify-content: space-around;*/
@@ -149,7 +150,7 @@ body {
     /*    background-size: 30%;*/
     background-position: center;
     background-attachment: fixed;
-    animation: fon 12s ease infinite;
+/*    animation: fon 12s ease infinite;*/
     transition: 1s;
 
 }
@@ -160,7 +161,12 @@ body {
     position: absolute;
 }
 
-
+.footerstyle{
+    display: block;
+    position: absolute;
+    top:90%;
+    right: 0;
+}
 .button {
     text-decoration: none;
     text-align: center;
